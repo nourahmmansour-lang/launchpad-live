@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="scripts/app.js"></script>
+</head>
+<body>
+ 
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <span class="nav-brand text-white" href="#">LaunchPad Live</span>
+  
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="navbar-toggler">
+    <span class="navbar-toggler-icon"></span>
+  </label>
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Roadmap</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+      <li class="nav-item-sign-up"><a class="nav-link" href="#">Sign Up</a></li>
+    </ul>
+  </div>
+</nav>
+<main>
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="text">
+        <h1>Build Modern Websites</h1>
+        <p>Create beautiful layouts using HTML,CSS and make it reponsive with Javascript</p>
+        <button class="button1">Get Started</button>
+      </div>
+      <div class="image-box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfcJaNztkgEwzpy61y4aq7lkB0sBuR8TEmZA&s" alt="Hero Image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container2">
+  <h2>About us</h2>
+  <section class="about">
+    <article class="card">
+      <h3>Learn Pro-Coding</h3>
+      <p>A platform designed to teach you web development effectively. we break down complex concepts into simple steps to help you become a professional developer.</p>
+    </article>
+    <article class="card">
+      <h3>Fast & Responsive learning</h3>
+      <p>We value your time. So we provide high quality courses and rapid support whenever you need help, ensuring your learning journey never slows down.</p>
+    </article>
+  </section>
+
+  <section class="roadmap-section">
+     <h2 class="roadmap-title">Roadmap Timeline</h2>
+     <div class="roadmap">
+        <div class="step">
+          <div class="number">1</div>
+          <div class="content">HTML Basics</div>
+        </div>
+        <div class="step">
+          <div class="number">2</div>
+          <div class="content">CSS Styling</div>
+        </div>
+        <div class="step">
+          <div class="number">3</div>
+          <div class="content">JAVASCRIPT Basics</div>
+        </div>
+     </div>
+  </section>
+</div>
+
+<section class="courses-section">
+  <div class="container2">
+    <h2>Courses to see</h2>
+
+    <div class="courses-slider">
+      <div class="slide" id="slide-1">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShvIgoPGPSR2UHOaumqEqKTGvxucd_Pm7TdGex7k0Eig&s=10">
+        <h3>HTML Basics</h3>
+        <p>Learn the structure of web pages.</p>
+        <span class="badge-1">Open Now</span>
+      </div>
+      
+      <div class="slide" id="slide-2">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPNQIQZEwR_UuYz4RUfKQR5Tthh5xr4eIKQEKBt_kZpA&s=10">
+        <h3>CSS Styling</h3>
+        <p>Style your pages with modern designs.</p>
+        <span class="badge-2">Coming Soon</span>
+      </div>
+      
+      <div class="slide" id="slide-3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrQgcMHFcN7ukZjF6n9P9gOhSD8pBc1tyS4qCDxMYZHA&s=10">
+        <h3>JavaScript Basics</h3>
+        <p>Add interactivity and logic to sites.</p>
+        <span class="badge-3">Closed</span>
+      </div>
+      
+      <div class="slide" id="slide-4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPBcOurJOS8G92DKcjXf3egpKvJelpZDNtJFHKFZOlmw&s=10">
+        <h3>React Development</h3>
+        <p>Build dynamic single page applications.</p>
+        <span class="badge-4">Open Soon</span>
+      </div>
+    </div>
+
+    <div class="slider-dots">
+      <a href="#slide-1">1</a>
+      <a href="#slide-2">2</a>
+      <a href="#slide-3">3</a>
+      <a href="#slide-4">4</a>
+    </div>
+  </div>
+</section>
+    <div class="signup-form">
+    <div class="signup-card">
+        <h2>Create An Account</h2>
+            <fieldset>
+                <legend>Student Details</legend>
+                
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="name@example.com" required>
+                </div>
+
+<div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Enter your password" required>
+</div>
+
+                <div class="form-group">
+                    <label for="track">Gender</label>
+                    <select id="track" required>
+                        <option>Choose your gender...</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Do Not Prefer To Say</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <button type="submit" class="submit-btn">Sign Up</button>
+
+    </div>
+</div>
+
+<div class="faq-section">
+    <h3 class="faq-title">Frequently Asked Questions</h3>
+
+    <details class="faq-item">
+        <summary>What is HTML?</summary>
+        <p>HTML stands for HyperText Markup Language. It is used to structure web pages and define their content.</p>
+    </details>
+
+    <details class="faq-item">
+        <summary>What is CSS?</summary>
+        <p>CSS stands for Cascading Style Sheets. It is used to style and layout web pages, adding colors, fonts, and spacing.</p>
+    </details>
+
+    <details class="faq-item">
+        <summary>What is JavaScript?</summary>
+        <p>JavaScript is a programming language that allows you to implement complex features and add interactivity to web pages.</p>
+    </details>
+</div>
+</main>
+<footer class="site-footer">
+    <div class="footer-content">
+        <h3>LaunchPad Live</h3>
+        <p>LaunchPad Live is a blog website where you will find great tutorials on web design and development. Here each tutorial is beautifully described step by step with the required source code.</p>
+        
+        <div class="social-icons">
+            <a href="#" class="icon">Home</a>
+            <a href="#" class="icon">About</a>
+            <a href="#" class="icon">Roadmap</a>
+            <a href="#" class="icon">Courses</a>
+            <a href="#" class="icon">Sign Up</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
